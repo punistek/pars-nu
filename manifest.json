@@ -1,0 +1,21 @@
+{
+  "name": "Puu Nuvio Eklentileri",
+  "version": "1.0.0",
+  "description": "PuuStream için Türkçe Nuvio eklentileri",
+  "author": "punistek",
+  "scrapers": [
+    {
+      "id": "dizipal",
+      "name": "Dizipal",
+      "description": "Dizipal — Türkçe dizi ve filmler (HLS + Türkçe altyazı)",
+      "version": "1.0.0",
+      "author": "punistek",
+      "filename": "providers/dizipal.js",
+      "supportedTypes": ["movie", "tv"],
+      "formats": ["m3u8"],
+      "contentLanguage": ["tr"],
+      "logo": "https://www.google.com/s2/favicons?domain=dizipal2135.com&sz=128",
+      "enabled": true
+    }
+  ]
+}
